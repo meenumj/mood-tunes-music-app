@@ -1,9 +1,11 @@
 import React from 'react'
 import './LoginPage.css'
 import { FaUser,FaLock } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
+    <body className='login-page'>
     <div className='wrapper'>
         <form action=''>
             <h1>Login</h1>
@@ -25,10 +27,14 @@ const LoginPage = () => {
             <p>Don't have an account? <a href='#'>Register</a></p>
             </div>
 
+            <div className="register-link">
+            <p>Want to Go Back? <Link to='/'>Go to Home</Link></p>
+            </div>
+
         </form>
       
     </div>
-      
+    </body>
     
   )
 }

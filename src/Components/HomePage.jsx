@@ -5,6 +5,8 @@ import { IoLocation } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { FaMusic } from "react-icons/fa";
+
 
 const HomePage = () => {
   return (
@@ -49,11 +51,11 @@ const HomePage = () => {
             <div className="row">
                 <div className="col-md-6">
                     <p className='promo-title'>MOOD TUNES MUSIC HUB</p>
-                    <p>Come and Experiece the Mood Tunes Music Hub</p>
+                    <p style={{textAlign:"justify"}}>Welcome to "MoodTunes Music Hub"......... We offers a dynamic music experience tailored to your emotions. Explore our emotion-driven playlist, curated to uplift spirits, soothe souls, or energize days. Additionally, generate personalized melodies with our music generation feature, transforming your words into unique compositions. Unlock the power of music to match and enhance your mood like never before!!!<FaMusic /><FaMusic /></p>
                      {/* <a href="#"><img src="images/play.png" alt="Play button" className="play-btn" />Listen</a>  */}
                 </div>
                 <div className="col-md-6 text-center">
-                    <img src="https://t4.ftcdn.net/jpg/05/47/71/47/360_F_547714760_sEcPXwbXcV834mc2IINTpWbtx6jsCrk9.jpg" className='img-fluid' />
+                    <img src="images/Project.jpg" className='img-fluid' style={{ height: '350px', width:"70%" }} />
                 </div>
             </div>
         </div>
@@ -70,12 +72,12 @@ const HomePage = () => {
           <div className="col-md-6 services">
             <img src="https://miro.medium.com/v2/resize:fit:1400/1*yWYCiphwCr7eDAQxyhIheg.png" className='service-img'/>
             <h4>Music Playlist</h4>
-            <p>Emotion based music playlist</p>
+            <p style={{textAlign:"justify"}}>Discover our emotion-driven music playlist! Whether you seek to lift your mood, find comfort in reflective tunes, or boost your energy with lively beats, our handpicked selection caters to diverse emotions.</p>
           </div>
           <div className="col-md-6 services">
             <img src="https://viso.ai/wp-content/uploads/2023/12/ai-music-generation-concept.jpg" className='service-img'/>
             <h4>Music Generation</h4>
-            <p>Music Generation From Text</p>
+            <p style={{textAlign:"justify"}}>Transform your words into melodies with us. Simply input a description or mood, click generate, and listen to your personalized composition come to life. Enhance your creativity and unlock endless musical possibilities.</p>
           </div>
         </div>
       </div>
@@ -90,13 +92,10 @@ const HomePage = () => {
     <div className="row">
       <div className="col-md-6 about-us">
         <p className='about-title'>Why we're different</p>
-        <ul>
-          <li>Creating Amazing Music with Audiocraft</li>
-          <li>Emotion based music playlist</li>
-          <li>Creating Amazing Music with Audiocraft</li>
-          <li>Emotion based music playlist</li>
-          <li>Creating Amazing Music with Audiocraft</li>
-          <li>Creating Amazing Music with Audiocraft</li>
+        <ul style={{textAlign:"justify"}}>
+          <li>Unlike traditional playlists, we focus on curating music that resonates with specific emotions, ensuring each song contributes to a cohesive and meaningful listening experience.</li>
+          <li>Our innovative music generation feature sets us apart, allowing users to create personalized compositions from text inputs. Experience the magic of AI as it transforms words into melodies.</li>
+          <li>We prioritize the security of user information by implementing encryption methods, ensuring that personal data remains safe and confidential.</li>
         </ul>
       </div>
       <div className="col-md-6">
@@ -116,19 +115,13 @@ const HomePage = () => {
   <h1 className='title text-center'>WHAT USERS SAY</h1>
   <div className="row offset-1">
     <div className="col-md-5 testimonials">
-      <p> Beautiful Applications to generate music with our own wish
-      Beautiful Applications to generate music with our own wish
-      Beautiful Applications to generate music with our own wish
-      Beautiful Applications to generate music with our own wish
+      <p style={{textAlign:"justify"}}> MoodTunes Music Hub has completely transformed my music listening experience! The curated playlists cater perfectly to my mood, whether I need a pick-me-up or some relaxation. I love how the platform offers such a diverse range of music genres and styles. It's my go-to destination for discovering new music and rediscovering old favorites.
       </p>
       <img src="images/user1.jpg"  />
       <p className='user-details'><b>Angelina Joe</b></p>
     </div>
     <div className="col-md-5 testimonials">
-      <p> Beautiful Applications to generate music with our own wish
-      Beautiful Applications to generate music with our own wish
-      Beautiful Applications to generate music with our own wish
-      Beautiful Applications to generate music with our own wish
+      <p style={{textAlign:"justify"}}> MoodTunes Music Hub has become an essential tool in my journey as a musician. The AI-powered music generation feature is mind-blowing! I've been able to experiment with different musical ideas and create compositions I never thought possible. This platform is a game-changer for anyone looking to explore their musical creativity.
       </p>
       <img src="images/user2.jpg"  />
       <p className='user-details'><b>Jacob John</b></p>
@@ -168,7 +161,7 @@ const HomePage = () => {
     <div className="col-md-4 footer-box">
       <p><b>CONTACT US</b></p>
       <p><IoLocation  className='fa-bars-footer'/> Federal Institute of Science and Technology, Angamaly</p>
-      <p><FaPhoneAlt  className='fa-bars-footer'/>  +91 99612287</p>
+      <p><FaPhoneAlt  className='fa-bars-footer'/>  +91 9961228702</p>
       <p>< MdOutlineMail className='fa-bars-footer'/>  meenu167999@gmail.com</p>
     </div>
     <div className="col-md-4 footer-box">

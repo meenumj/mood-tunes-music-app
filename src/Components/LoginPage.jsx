@@ -37,7 +37,7 @@ const readValues = ()=>{
         if (response.data.status=="success") {
             console.log(response.data.userData._id)
             sessionStorage.setItem("userID",response.data.userData._id)//session set value.userID session variable
-            navigate("/")
+            navigate("/userhome")
             setInput(  {   
                     
                     "Email":"",
